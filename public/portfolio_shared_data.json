@@ -1,11 +1,12 @@
 {
   "basic_info": {
-    "name": "Rani Raj Laxmi Soni",
+    "name": "Rani Raj Laxmi Soni | रानी राज लक्ष्मी सोनी",
+    "nameHindi": "रानी राज लक्ष्मी सोनी",
     "titles": [ "3D Artist", "3D Sculptor", "3D Animator" ],
     "social": [
       {
-        "name": "github",
-        "url": "https://github.com",
+        "name": "ArtStation",
+        "url": "https://rajlaxmi.artstation.com/",
         "class": "fab fa-github"
       },
       {
@@ -19,49 +20,69 @@
   "skills": {
     "icons": [
       {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95"
+        "name": "Maya",
+        "class": "devicon-maya-plain",
+        "icon": "90"
       },
       {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "95"
+        "name": "ZBrush",
+        "class": "devicon-zend-plain",
+        "icon": "90"
       },
       {
-        "name": "Angular",
+        "name": "Arnold",
+        "class": "devicon-adonisjs-original",
+        "icon": "90"
+      },
+      {
+        "name": "Substance 3D Painter",
+        "class": "devicon-svelte-plain",
+        "icon": "70"
+      },
+      {
+        "name": "Substance 3D Sampler",
+        "class": "devicon-svelte-plain",
+        "icon": "70"
+      },
+      {
+        "name": "Adobe Photoshop",
+        "class": "devicon-photoshop-plain",
+        "icon": "70"
+      },
+      {
+        "name": "Adobe Animate",
         "class": "devicon-angularjs-plain",
-        "level": "80"
+        "icon": "70"
       },
       {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
-        "level": "90"
+        "name": "Premiere Pro",
+        "class": "devicon-premierepro-plain",
+        "icon": "60"
       },
       {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "70"
+        "name": "After Effects",
+        "class": "devicon-aftereffects-plain",
+        "icon": "40"
       },
       {
-        "name": "Sass",
-        "class": "devicon-sass-original",
-        "level": "75"
+        "name": "AirTable",
+        "class": "devicon-amazonwebservices-original",
+        "icon": "65"
       },
       {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
-        "level": "85"
+        "name": "Asana",
+        "class": "devicon-appcelerator-original",
+        "icon": "65"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
+        "name": "Miro",
+        "class": "devicon-moodle-plain",
+        "icon": "60"
       },
       {
-        "name": "MySql",
-        "class": "devicon-mysql-plain",
-        "level": "60"
+        "name": "GitHub",
+        "class": "devicon-github-plain",
+        "icon": "60"
       }
     ]
   }

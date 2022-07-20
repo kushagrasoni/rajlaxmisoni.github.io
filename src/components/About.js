@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import zbrushIcon from '@iconify/icons-file-icons/zbrush';
+import fileTypeMaya from '@iconify/icons-vscode-icons/file-type-maya';
+import adobePhotoshop from '@iconify/icons-file-icons/adobe-photoshop';
 
 class About extends Component {
     render() {
@@ -31,15 +31,15 @@ class About extends Component {
                       alt="Avatar placeholder"
                   />
                   <Icon
-                      icon={angularIcon}
+                      icon={zbrushIcon}
                       style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                      icon={reactIcon}
+                      icon={fileTypeMaya}
                       style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                      icon={vueIcon}
+                      icon={adobePhotoshop}
                       style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>

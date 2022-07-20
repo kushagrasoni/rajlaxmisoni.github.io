@@ -20,6 +20,7 @@ class App extends Component {
     }
 
     applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
+        this.loadSharedData();
         this.swapCurrentlyActiveLanguage(oppositeLangIconId);
         document.documentElement.lang = pickedLanguage;
         var resumePath =
@@ -36,14 +37,13 @@ class App extends Component {
                 : window.$primaryLanguageIconId;
         document
             .getElementById(oppositeLangIconId)
-            .removeAttribute("filter", "brightness(40%)");
+            .removeAttribute("filter", "brightness(50%)");
         document
             .getElementById(pickedLangIconId)
-            .setAttribute("filter", "brightness(40%)");
+            .setAttribute("filter", "brightness(50%)");
     }
 
     componentDidMount() {
-        this.loadSharedData();
         this.applyPickedLanguage(
             window.$primaryLanguage,
             window.$secondaryLanguageIconId
@@ -95,7 +95,7 @@ class App extends Component {
                     >
             <span
                 className="iconify language-icon mr-5"
-                data-icon="twemoji-flag-for-flag-united-kingdom"
+                data-icon="twemoji-flag-for-flag-united-states"
                 data-inline="false"
                 id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +111,7 @@ class App extends Component {
                     >
             <span
                 className="iconify language-icon"
-                data-icon="twemoji-flag-for-flag-poland"
+                data-icon="twemoji-flag-for-flag-india"
                 data-inline="false"
                 id={window.$secondaryLanguageIconId}
             ></span>

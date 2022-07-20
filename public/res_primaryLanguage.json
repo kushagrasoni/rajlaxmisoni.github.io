@@ -1,117 +1,204 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description": "👋 I'm Rani Raj Laxmi Soni",
     "section_name": {
-      "about": "About me",
+      "about": "I am a 3D Artist born and raised in India and continuing my learning here in United States. Completed MA in 3D Animation(June 2022) from DePaul University Chicago, Illinois with distinction. Since childhood I am so mesmerized by this beautiful and magical world of animation and always passionate about learning all facets of the animation production pipeline :)",
       "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
+      "skills": "High and Low poly Modeling Re-Topologizing, UV Unwrap, Rigging, Lighting (Maya and Arnold), Animation, Strong Design Sense, Texturing, Experience in creating PBR Material, Project and Time management",
+      "experience": "Entry Level"
     }
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Vintage TypeWriter - 3D Model",
+      "startDate": "2022",
+      "description": "Inspired by Halda Green portable typewriters. Modelled in Maya, UV’d in Maya, textured in Substance Painter and Maya. The final low poly renders are achieved in Maya Arnold.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/vintage_typewriter/vintage-typewriter-front.jpeg",
+        "images/portfolio/vintage_typewriter/vintage-typewriter-back.jpeg",
+        "images/portfolio/vintage_typewriter/vintage-typewriter-top.jpeg"
       ],
-      "url": "",
+      "url": "https://www.artstation.com/artwork/NGmYVP",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-maya-plain",
+          "name": "Maya"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-svelte-plain",
+          "name": "Substance Painter"
         }
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "Train Tunnel - Lighting, Texturing",
+      "startDate": "2021",
+      "description": "Worked on the Train Tunnel as a part of a coursework project. UV’ed and textured the Scene in Maya. Lighting and final renders are achieved in Maya Arnold.\nTechnologies: Maya Arnold and Substance 3D Sampler\n",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/train_tunnel/train-tunnel.jpeg"
       ],
-      "url": "https://github.com",
+      "url": "https://www.artstation.com/artwork/JeW9WD",
+      "technologies": [
+        {
+          "class": "devicon-maya-plain",
+          "name": "Maya"
+        },
+        {
+          "class": "devicon-svelte-plain",
+          "name": "Substance 3D Sampler"
+        },
+        {
+          "class": "devicon-adonisjs-original",
+          "name": "Arnold"
+        }
+      ]
+    },
+    {
+      "title": "Gas Station - 3D Model",
+      "startDate": "2021",
+      "description": "The Gas Station Diorama I finished as a part of a coursework project. I modeled it in Maya, textured it in Substance Painter and rendered it in Arnold",
+      "images": [
+        "images/portfolio/gas_station/gas-station-front.jpeg",
+        "images/portfolio/gas_station/gas-station-back.jpeg",
+        "images/portfolio/gas_station/gas-station-side.jpeg",
+        "images/portfolio/gas_station/gas-station-turntable.mp4"
+      ],
+      "url": "https://www.artstation.com/artwork/wJ0KqO",
+      "technologies": [
+        {
+          "class": "devicon-maya-plain",
+          "name": "Maya"
+        },
+        {
+          "class": "devicon-svelte-plain",
+          "name": "Substance 3D Painter"
+        },
+        {
+          "class": "devicon-svelte-original",
+          "name": "Substance 3D Sampler"
+        }
+      ]
+    },
+    {
+      "title": "Leg Fish - 3D Model",
+      "startDate": "2021",
+      "description": "I sculpted this 3D Model of a 'Leg Fish' as a part of a 3D Animated Short (in Production) directed by Joel Benjamin, based on a concept art by Kimberly Underwood.",
+      "images": [
+        "images/portfolio/leg_fish/leg-fish.jpeg",
+        "images/portfolio/leg_fish/leg-fish-wireframe.jpeg",
+        "images/portfolio/leg_fish/leg-fish-turntable.mp4"
+      ],
+      "url": "https://www.artstation.com/artwork/14wWOo",
+      "technologies": [
+        {
+          "class": "devicon-zend-plain",
+          "name": "ZBrush"
+        }
+      ]
+    },
+    {
+      "title": "Amurich - 3D Model",
+      "startDate": "2020",
+      "description": "This is a fictional environment based character is inspired by the animals living in the Kalahari Desert, based in southern part of African continent. A biped character having fairly shorter and deformed front limbs, whereas it uses them to grab and eat food. ",
+      "images": [
+        "images/portfolio/amurich/amurich_front.jpeg",
+        "images/portfolio/amurich/amurich-turntable.mp4"
+      ],
+      "url": "https://www.artstation.com/artwork/Ye3Vgb",
+      "technologies": [
+        {
+          "class": "devicon-zend-plain",
+          "name": "ZBrush"
+        },
+        {
+          "class": "devicon-photoshop-plain",
+          "name": "Adobe Photoshop"
+        }
+      ]
+    },
+    {
+      "title": "Caricature - Abraham Lincoln - 3D Sculpture",
+      "startDate": "2020",
+      "description": "It is a 3D Sculpt of Abraham Lincoln. I started with the basic head sculpt of him and later modified and enhanced the features of sculpt as caricature and then polypainted it in ZBrush ",
+      "images": [
+        "images/portfolio/abraham_lincoln/lincoln-caricature.jpeg",
+        "images/portfolio/abraham_lincoln/lincoln-caricature-turntable.mp4"
+      ],
+      "url": "https://www.artstation.com/artwork/rAQyD2",
       "technologies": [
         {
           "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "name": "ZBrush"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "Splicer Films",
+      "title": "Animation Production Manager",
+      "years": "03.2022 - 06.2022",
       "mainTech": [
-        "Angular 8/9/10"
+        "Adobe Photoshop"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Adobe Photoshop",
+        "AirTable",
+        "Asana",
+        "Google Docs"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "company": "Kashmir World Foundation",
+      "title": "Modeling and Design Intern",
+      "years": "03.2022 - 06.2022",
       "mainTech": [
-        "Angular 7/8"
+        "Maya",
+        "Adobe Photoshop"
       ],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "Maya",
+        "Adobe Photoshop"
+
+      ]
+    },
+    {
+      "company": "Joel Benjamin - Project Bluelight",
+      "title": "Max Q",
+      "years": "01.2021 - 12.2021",
+      "mainTech": [
+        "ZBrush"
+      ],
+      "technologies": [
+        "ZBrush",
+        "Maya",
+        "Adobe Photoshop",
+        "GitHub",
+        "Asana",
+        "Google Docs"
+      ]
+    },
+    {
+      "company": "DePaul University, Chicago",
+      "title": "Masters Of Arts - 3D Animation",
+      "years": "03.2020 - 06.2022",
+      "mainTech": [
+        "Maya",
+        "ZBrush"
+      ],
+      "technologies": [
+        "Maya",
+        "ZBrush",
+        "Adobe Photoshop",
+        "Arnold",
+        "Substance 3D Painter",
+        "Substance 3D Sampler",
+        "Adobe Animate",
+        "Premiere Pro",
+        "After Effects",
+        "GitHub",
+        "Google Docs"
       ]
     }
   ]
